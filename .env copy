@@ -1,0 +1,15 @@
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=
+DB_NAME=prayer_time_reminder
+
+BASE_PATH=/PrayerTimeReminder
+
+
+SMTP_HOST=smtp.example.com
+SMTP_USER=user@example.com
+SMTP_PASS=secret
+SMTP_PORT=587
+SMTP_SECURE=tls
+MAIL_FROM=from@example.com
+MAIL_FROM_NAME=Mailer

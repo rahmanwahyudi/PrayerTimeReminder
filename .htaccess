@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /PrayerTimeReminder/
+
+# Allow assets directory
+RewriteRule ^assets/ - [L]
+
+# Redirect all requests to index.php within the base path
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
