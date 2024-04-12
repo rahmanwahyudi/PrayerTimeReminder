@@ -25,7 +25,7 @@ Follow these instructions to get the PrayerTimeReminder app up and running on yo
 Clone the PrayerTimeReminder repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/PrayerTimeReminder.git
+git clone https://github.com/rahmanwahyudi/PrayerTimeReminder
 cd PrayerTimeReminder
 ```
 
